@@ -1,0 +1,25 @@
+{
+  "name": "shukjitz",
+  "version": "0.1.0",
+  "description": "",
+  "main": "lib/index.js",
+  "dependencies": {
+    "ical": "^0.4.0",
+    "promise": "^7.1.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.5.1",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-register": "^6.5.1",
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "start": "babel src --watch --out-dir lib",
+    "build": "babel src --out-dir lib",
+    "test": "mocha --compilers js:babel-register",
+    "prepublish": "npm run build"
+  },
+  "keywords": [],
+  "author": "hoto17296",
+  "license": "MIT"
+}
