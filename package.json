@@ -1,8 +1,9 @@
 {
   "name": "shukjitz",
   "version": "0.1.0",
-  "description": "",
+  "description": "指定した日付が日本の祝日かどうかを判定する",
   "main": "lib/index.js",
+  "repository": "hoto17296/node-shukjitz",
   "dependencies": {
     "ical": "^0.4.0",
     "promise": "^7.1.1"
