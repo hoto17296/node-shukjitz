@@ -1,4 +1,6 @@
 # Shukjitz
+[![Build Status](https://travis-ci.org/hoto17296/node-shukjitz.svg?branch=master)](https://travis-ci.org/hoto17296/node-shukjitz)
+
 指定した日付が日本の祝日かどうかを判定する
 
 ## Installation
