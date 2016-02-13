@@ -32,4 +32,10 @@ describe('shukjitz', () => {
     });
   });
 
+  it('元日は祝日 (Sync)', () => {
+    let date = new Date(2016, 0, 1);
+    let res = shukjitz.checkSync(date);
+    assert.equal(res, '元日');
+  });
+
 });

@@ -44,6 +44,14 @@ class Shukjitz {
     });
   }
 
+  // 取得済みのデータから同期的に返す
+  // ※ データが未取得の場合は必ず null を返すので注意
+  checkSync(date = new Date()) {
+    let res = this.data[ date.toDateString() ];
+    this._fetch();
+    return res ? res : null;
+  }
+
 }
 
 export default Shukjitz;
